@@ -24,7 +24,7 @@ for k in range(20):
   print(f'Teste {k}')
   academia.reiniciar_o_dia()
   rotina()
-  list_chaos += [academia.calcular_caos() * 100]
+  list_chaos += [academia.calcular_chaos() * 100]
 
 print(f'{list_chaos} %')
 

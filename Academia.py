@@ -30,9 +30,9 @@ class Academia:
      
      self.porta_halteres[Key] = peso
   
-  def calcular_caos(self):
-     num_caos = [i for i, j in self.porta_halteres.items() if i != j]
-     return len(num_caos) / len(self.porta_halteres)
+  def calcular_chaos(self):
+     num_chaos = [i for i, j in self.porta_halteres.items() if i != j]
+     return len(num_chaos) / len(self.porta_halteres)
   
 
 class Usuario:
